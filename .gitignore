@@ -1,0 +1,32 @@
+# Ignore macOS system files
+.DS_Store
+Thumbs.db
+
+# Node.js / npm (safe to include even if not used now)
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Editor/IDE settings
+.vscode/
+.idea/
+
+# OS/Linux swap files
+*.swp
+*.swo
+
+# Netlify deploy cache
+.netlify/
+
+# Environment variables
+.env
+.env.local
+.env.production
+.env.development
+
+# Log files
+*.log
+
+# Other optional junk
+*.bak
+*.tmp
